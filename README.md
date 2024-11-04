@@ -1,14 +1,14 @@
 目前进度：<br>
-    ·Transformer模型本体：正在DEBUG，请稍候。<br>
-    ·Swin Transformer：未完成。<br>
+    ·Transformer模型本体：已完成。<br>
+    ·Swin Transformer：正在工作。<br>
     ……（还有其他可能的Transformer）<br>
 <br>
 本集合里所有的代码均为“有手就行”型，不需要看什么纷繁复杂的README，只要套上Torch和Torch.nn就能用。<br>
 
 
 文件档案：<br>
-    ·GraduTransformer：<br>
-        一个可用的Transformer模型本体，需要使用时请自行输入编码器和解码器。<br>
+    ·Transformer：<br>
+        一个可用的Transformer模型本体，使用方法已放在文档内部注释。<br>
         使用方法：<br>
         “训练阶段”，即模型训练阶段。在Transformer模型中，训练阶段需要同时使用编码器和解码器。<br>
         在编码器中输入你用于训练的输入内容，然后在解码器中输入。<br>
